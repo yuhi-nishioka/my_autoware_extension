@@ -13,7 +13,7 @@
     <param name="use_sim_time" value="$(var use_sim_time)"/>
   </node>
   
-  <include file="$(find-pkg-share autoware_lidar_centerpoint)/launch/lidar_centerpoint.launch.xml">
+  <include file="$(find-pkg-share my_autoware_centerpoint)/launch/lidar_centerpoint.launch.xml">
     <arg name="input/pointcloud" value="/adenu/sensing/lidar/points"/>
     <arg name="output/objects" value="/objects_rsu1"/>
     <arg name="node_name" value="lidar_centerpoint_rsu1"/>
@@ -22,7 +22,7 @@
     <arg name="use_sim_time" value="$(var use_sim_time)"/>
   </include>
 
-  <include file="$(find-pkg-share autoware_lidar_centerpoint)/launch/lidar_centerpoint.launch.xml">
+  <include file="$(find-pkg-share my_autoware_centerpoint)/launch/lidar_centerpoint.launch.xml">
     <arg name="input/pointcloud" value="/livox/lidar"/>
     <arg name="output/objects" value="/objects_rsu2"/>
     <arg name="node_name" value="lidar_centerpoint_rsu2"/>
@@ -31,7 +31,7 @@
     <arg name="use_sim_time" value="$(var use_sim_time)"/>
   </include>
 
-  <include file="$(find-pkg-share autoware_lidar_centerpoint)/launch/lidar_centerpoint.launch.xml">
+  <include file="$(find-pkg-share my_autoware_centerpoint)/launch/lidar_centerpoint.launch.xml">
     <arg name="input/pointcloud" value="/points_raw"/>
     <arg name="output/objects" value="/objects_vehicle"/>
     <arg name="node_name" value="lidar_centerpoint_vehicle"/>
