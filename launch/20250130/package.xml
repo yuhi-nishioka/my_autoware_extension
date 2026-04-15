@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>select_launch</name>
+  <name>20250130</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Launch files for 20250130 experiment</description>
   <maintainer email="nishioka.yuhi.official@gmail.com">dm2</maintainer>
   <license>TODO: License declaration</license>
 

@@ -75,5 +75,5 @@
     <param name="use_sim_time" value="$(var use_sim_time)"/>
   </node>
 
-  <executable cmd="ros2 bag play $(env HOME)/autoware_data/20250130/merged_bag_2 --start-offset 150 -d 2 --clock" output="screen"/>
+  <executable cmd="ros2 bag play $(env HOME)/rosbag2/20250130/merged_bag_2 --start-offset 150 -d 2 --clock" output="screen"/>
 </launch>
